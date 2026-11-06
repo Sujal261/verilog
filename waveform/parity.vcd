@@ -1,0 +1,113 @@
+$date
+	Fri Oct 30 22:26:48 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_parity $end
+$var wire 1 ! z $end
+$var reg 1 " clk $end
+$var reg 1 # x $end
+$scope module DUT $end
+$var wire 1 " clk $end
+$var wire 1 # x $end
+$var parameter 32 $ EVEN $end
+$var parameter 32 % ODD $end
+$var reg 1 & even_odd $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 %
+b0 $
+$end
+#0
+$dumpvars
+0&
+x#
+1"
+x!
+$end
+#2
+0#
+#5
+0"
+#10
+0!
+1"
+#12
+1#
+#15
+0"
+#20
+1!
+1&
+1"
+#25
+0"
+#30
+0!
+0&
+1"
+#35
+0"
+#40
+1!
+1&
+1"
+#42
+0#
+#45
+0"
+#50
+1"
+#52
+1#
+#55
+0"
+#60
+0!
+0&
+1"
+#65
+0"
+#70
+1!
+1&
+1"
+#72
+0#
+#75
+0"
+#80
+1"
+#85
+0"
+#90
+1"
+#92
+1#
+#95
+0"
+#100
+0!
+0&
+1"
+#105
+0"
+#110
+1!
+1&
+1"
+#112
+0#
+#115
+0"
+#120
+1"
+#122

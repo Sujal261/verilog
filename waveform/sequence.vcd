@@ -1,0 +1,141 @@
+$date
+	Fri Oct 30 22:54:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_sequence $end
+$var wire 1 ! z $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$var reg 1 $ x $end
+$scope module SEQ $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 $ x $end
+$var parameter 32 % S0 $end
+$var parameter 32 & S1 $end
+$var parameter 32 ' S2 $end
+$var parameter 32 ( S3 $end
+$var reg 2 ) NS [0:1] $end
+$var reg 2 * PS [0:1] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 (
+b10 '
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+b0 *
+b0x )
+x$
+1#
+0"
+0!
+$end
+#5
+1"
+#10
+0"
+#12
+b0 )
+0$
+#13
+0#
+#15
+1"
+#20
+0"
+#25
+1"
+#30
+0"
+#32
+b1 )
+1$
+#35
+b10 )
+b1 *
+1"
+#40
+0"
+#45
+b11 )
+b10 *
+1"
+#50
+0"
+#52
+b1 )
+0$
+#55
+b0 )
+b1 *
+1"
+#60
+0"
+#62
+b10 )
+1$
+#65
+b11 )
+b10 *
+1"
+#70
+0"
+#75
+b0 )
+b11 *
+1"
+#80
+0"
+#82
+b1 )
+1!
+0$
+#85
+b0 )
+0!
+b1 *
+1"
+#90
+0"
+#95
+b0 *
+1"
+#100
+0"
+#102
+b1 )
+1$
+#105
+b10 )
+b1 *
+1"
+#110
+0"
+#115
+b11 )
+b10 *
+1"
+#120
+0"
+#122
+b1 )
+0$
+#125
+b0 )
+b1 *
+1"
+#130
+0"
+#132

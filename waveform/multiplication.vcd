@@ -1,0 +1,357 @@
+$date
+	Sat Oct 31 11:16:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_multiplication $end
+$var wire 1 ! ldP $end
+$var wire 1 " ldB $end
+$var wire 1 # ldA $end
+$var wire 1 $ eqz $end
+$var wire 1 % done $end
+$var wire 1 & decB $end
+$var wire 1 ' clrP $end
+$var reg 1 ( clk $end
+$var reg 16 ) data_in [15:0] $end
+$var reg 1 * reset $end
+$var reg 1 + start $end
+$scope module DUT $end
+$var wire 16 , Bus [15:0] $end
+$var wire 1 ( clk $end
+$var wire 16 - data_in [15:0] $end
+$var wire 1 ! ldP $end
+$var wire 1 " ldB $end
+$var wire 1 # ldA $end
+$var wire 1 $ eqz $end
+$var wire 1 & decB $end
+$var wire 1 ' clrP $end
+$var wire 16 . Z [15:0] $end
+$var wire 16 / Y [15:0] $end
+$var wire 16 0 X [15:0] $end
+$var wire 16 1 Bout [15:0] $end
+$scope module A $end
+$var wire 1 ( clk $end
+$var wire 16 2 din [15:0] $end
+$var wire 1 # ld $end
+$var reg 16 3 dout [15:0] $end
+$upscope $end
+$scope module AD $end
+$var wire 16 4 in1 [15:0] $end
+$var wire 16 5 in2 [15:0] $end
+$var reg 16 6 out [15:0] $end
+$upscope $end
+$scope module B $end
+$var wire 1 ( clk $end
+$var wire 16 7 din [15:0] $end
+$var wire 1 " ld $end
+$var wire 1 & dec $end
+$var reg 16 8 Bout [15:0] $end
+$upscope $end
+$scope module COMP $end
+$var wire 16 9 data [15:0] $end
+$var wire 1 $ eqz $end
+$upscope $end
+$scope module P $end
+$var wire 1 ( clk $end
+$var wire 16 : din [15:0] $end
+$var wire 1 ! ld $end
+$var wire 1 ' clr $end
+$var reg 16 ; dout [15:0] $end
+$upscope $end
+$upscope $end
+$scope module DUT1 $end
+$var wire 1 ( clk $end
+$var wire 1 $ eqz $end
+$var wire 1 * reset $end
+$var wire 1 + start $end
+$var parameter 3 < S0 $end
+$var parameter 3 = S1 $end
+$var parameter 3 > S2 $end
+$var parameter 3 ? S3 $end
+$var parameter 3 @ S4 $end
+$var reg 3 A NS [2:0] $end
+$var reg 3 B PS [2:0] $end
+$var reg 1 ' clrP $end
+$var reg 1 & decB $end
+$var reg 1 % done $end
+$var reg 1 # ldA $end
+$var reg 1 " ldB $end
+$var reg 1 ! ldP $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 @
+b11 ?
+b10 >
+b1 =
+b0 <
+$end
+#0
+$dumpvars
+bx B
+b0 A
+bx ;
+bx :
+bx 9
+bx 8
+b10001 7
+bx 6
+bx 5
+bx 4
+bx 3
+b10001 2
+bx 1
+bx 0
+bx /
+bx .
+b10001 -
+b10001 ,
+0+
+1*
+b10001 )
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0%
+0&
+0'
+0!
+0"
+0#
+b0 B
+1(
+#10
+0(
+#12
+0*
+#13
+b1 A
+1+
+#15
+b10 A
+b1 B
+1(
+#16
+1#
+#20
+0(
+#23
+0+
+#25
+0#
+b11 A
+b10001 0
+b10001 3
+b10001 4
+b10 B
+1(
+#26
+1'
+1"
+b101 ,
+b101 2
+b101 7
+b101 )
+b101 -
+#30
+0(
+#35
+0'
+0"
+0$
+b10001 .
+b10001 6
+b10001 :
+b11 B
+b101 1
+b101 8
+b101 9
+b0 /
+b0 5
+b0 ;
+1(
+#36
+1&
+1!
+#40
+0(
+#45
+b100010 .
+b100010 6
+b100010 :
+b10001 /
+b10001 5
+b10001 ;
+b100 1
+b100 8
+b100 9
+1(
+#50
+0(
+#55
+b110011 .
+b110011 6
+b110011 :
+b11 1
+b11 8
+b11 9
+b100010 /
+b100010 5
+b100010 ;
+1(
+#60
+0(
+#65
+b1000100 .
+b1000100 6
+b1000100 :
+b110011 /
+b110011 5
+b110011 ;
+b10 1
+b10 8
+b10 9
+1(
+#70
+0(
+#75
+b1010101 .
+b1010101 6
+b1010101 :
+b1 1
+b1 8
+b1 9
+b1000100 /
+b1000100 5
+b1000100 ;
+1(
+#80
+0(
+#85
+b1100110 .
+b1100110 6
+b1100110 :
+1$
+b1010101 /
+b1010101 5
+b1010101 ;
+b0 1
+b0 8
+b0 9
+1(
+#87
+b100 A
+#90
+0(
+#95
+0&
+0!
+0$
+b1110111 .
+b1110111 6
+b1110111 :
+b100 B
+b1111111111111111 1
+b1111111111111111 8
+b1111111111111111 9
+b1100110 /
+b1100110 5
+b1100110 ;
+1(
+#96
+1%
+#100
+0(
+#105
+1(
+#110
+0(
+#115
+1(
+#120
+0(
+#125
+1(
+#130
+0(
+#135
+1(
+#140
+0(
+#145
+1(
+#150
+0(
+#155
+1(
+#160
+0(
+#165
+1(
+#170
+0(
+#175
+1(
+#180
+0(
+#185
+1(
+#190
+0(
+#195
+1(
+#200
+0(
+#205
+1(
+#210
+0(
+#215
+1(
+#220
+0(
+#225
+1(
+#230
+0(
+#235
+1(
+#240
+0(
+#245
+1(
+#250
+0(
+#255
+1(
+#260
+0(
+#265
+1(
+#270
+0(
+#275
+1(
+#280
+0(
+#285
+1(
+#290
+0(
+#295
+1(
+#300
+0(

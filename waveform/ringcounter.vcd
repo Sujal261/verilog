@@ -1,0 +1,97 @@
+$date
+	Thu Oct 29 18:01:44 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_ringcounter $end
+$var wire 8 ! count [7:0] $end
+$var reg 1 " clk $end
+$var reg 1 # init $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # init $end
+$var reg 8 $ count [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx $
+1#
+0"
+bx !
+$end
+#5
+b10000000 !
+b10000000 $
+1"
+#7
+0#
+#10
+0"
+#15
+b1 !
+b1 $
+1"
+#20
+0"
+#25
+b10 !
+b10 $
+1"
+#30
+0"
+#35
+b100 !
+b100 $
+1"
+#40
+0"
+#45
+b1000 !
+b1000 $
+1"
+#50
+0"
+#55
+b10000 !
+b10000 $
+1"
+#60
+0"
+#65
+b100000 !
+b100000 $
+1"
+#70
+0"
+#75
+b1000000 !
+b1000000 $
+1"
+#80
+0"
+#85
+b10000000 !
+b10000000 $
+1"
+#90
+0"
+#95
+b1 !
+b1 $
+1"
+#100
+0"
+#105
+b10 !
+b10 $
+1"
+#107
